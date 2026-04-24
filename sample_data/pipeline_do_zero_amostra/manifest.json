@@ -1,0 +1,45 @@
+{
+  "municipio_code": "3543907",
+  "municipio_name": "Rio Claro",
+  "uf_code": "35",
+  "uf_sigla": "SP",
+  "selected_setores": [
+    "354390705000024",
+    "354390705000007",
+    "354390705000447",
+    "354390705000228",
+    "354390705000008",
+    "354390705000129",
+    "354390705000006",
+    "354390705000130",
+    "354390705000002",
+    "354390705000305",
+    "354390705000471",
+    "354390705000155",
+    "354390705000015",
+    "354390705000297",
+    "354390705000391",
+    "354390705000103",
+    "354390705000051",
+    "354390705000233",
+    "354390705000004",
+    "354390705000208",
+    "354390705000139",
+    "354390705000020",
+    "354390705000003",
+    "354390705000112"
+  ],
+  "counts": {
+    "setores": 24,
+    "cnefe_rows": 11257,
+    "renda_rows": 24,
+    "shape_rows": 24,
+    "ceps_distintos_cnefe": 231
+  },
+  "selection_rule": "Top 24 setores do municipio 3543907 (Rio Claro/SP) por quantidade de registros de enderecos no CNEFE bruto, restritos ao conjunto presente tambem na malha e no agregado de renda.",
+  "sources": {
+    "cnefe_file": "saida_cnefe_uf\\extraido\\SEM_UF\\35_SP.csv",
+    "renda_file": "Agregados_por_setores_renda_responsavel_BR_csv\\Agregados_por_setores_renda_responsavel_BR.csv",
+    "shapefile": "BR_setores_CD2022\\BR_setores_CD2022.shp"
+  }
+}

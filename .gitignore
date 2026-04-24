@@ -1,0 +1,9 @@
+.jupyter_runtime/
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.pyc
+
+sample_data/pipeline_do_zero_amostra/saida_setor_cep_renda_do_zero/*.sqlite
+sample_data/pipeline_do_zero_amostra/saida_setor_cep_renda_do_zero/*.sqlite-shm
+sample_data/pipeline_do_zero_amostra/saida_setor_cep_renda_do_zero/*.sqlite-wal
+sample_data/pipeline_do_zero_amostra/saida_setor_cep_renda_do_zero/*.parquet

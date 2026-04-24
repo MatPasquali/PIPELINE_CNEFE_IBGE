@@ -1,0 +1,8 @@
+{
+  "preview_rows": 10,
+  "metric_rows": 5,
+  "top_rows": 10,
+  "output_csv": "sample_data\\pipeline_do_zero_amostra\\saida_setor_cep_renda_do_zero\\setor_censitario_cep_renda_do_zero.csv",
+  "output_summary": "sample_data\\pipeline_do_zero_amostra\\saida_setor_cep_renda_do_zero\\setor_censitario_cep_renda_do_zero_resumo.json",
+  "output_graph_png": "sample_data\\pipeline_do_zero_mapas_sp.png"
+}

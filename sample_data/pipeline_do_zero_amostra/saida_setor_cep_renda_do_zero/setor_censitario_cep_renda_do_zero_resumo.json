@@ -1,0 +1,43 @@
+{
+  "started_at": "2026-04-24T03:21:10+00:00",
+  "project_root": "C:\\Users\\matpa\\Documents\\Base CEP_LOG_RENDA\\pipeline_do_zero_publicacao\\sample_data\\pipeline_do_zero_amostra",
+  "cnefe_root": "C:\\Users\\matpa\\Documents\\Base CEP_LOG_RENDA\\pipeline_do_zero_publicacao\\sample_data\\pipeline_do_zero_amostra\\saida_cnefe_uf\\extraido\\SEM_UF",
+  "renda_csv": "C:\\Users\\matpa\\Documents\\Base CEP_LOG_RENDA\\pipeline_do_zero_publicacao\\sample_data\\pipeline_do_zero_amostra\\Agregados_por_setores_renda_responsavel_BR_csv\\Agregados_por_setores_renda_responsavel_BR.csv",
+  "shapefile": "C:\\Users\\matpa\\Documents\\Base CEP_LOG_RENDA\\pipeline_do_zero_publicacao\\sample_data\\pipeline_do_zero_amostra\\BR_setores_CD2022\\BR_setores_CD2022.shp",
+  "output_dir": "C:\\Users\\matpa\\Documents\\Base CEP_LOG_RENDA\\pipeline_do_zero_publicacao\\sample_data\\pipeline_do_zero_amostra\\saida_setor_cep_renda_do_zero",
+  "work_sqlite": "C:\\Users\\matpa\\Documents\\Base CEP_LOG_RENDA\\pipeline_do_zero_publicacao\\sample_data\\pipeline_do_zero_amostra\\saida_setor_cep_renda_do_zero\\setor_cep_renda_do_zero_work.sqlite",
+  "uf_filter": [
+    "SP"
+  ],
+  "setor_filter": null,
+  "limit_files": null,
+  "limit_rows_per_file": null,
+  "chunksize": 50000,
+  "sql_chunksize": 50000,
+  "rebuild_sqlite": true,
+  "cnefe_files_selected": 1,
+  "cnefe_files": [
+    "C:\\Users\\matpa\\Documents\\Base CEP_LOG_RENDA\\pipeline_do_zero_publicacao\\sample_data\\pipeline_do_zero_amostra\\saida_cnefe_uf\\extraido\\SEM_UF\\35_SP.csv"
+  ],
+  "renda_rows_loaded": 24,
+  "setores_rows_loaded": 24,
+  "cnefe_ingest": {
+    "files_processed": 1,
+    "chunks_processed": 1,
+    "raw_rows_read": 11257,
+    "raw_rows_skipped": 0,
+    "grouped_rows_upserted": 334
+  },
+  "distinct_setor_cep_logradouro": 334,
+  "distinct_setores_cnefe": 24,
+  "distinct_ceps_cnefe": 231,
+  "rows_exported": 295,
+  "finished_at": "2026-04-24T03:21:10+00:00",
+  "elapsed_seconds": 0.154,
+  "outputs": {
+    "csv": "C:\\Users\\matpa\\Documents\\Base CEP_LOG_RENDA\\pipeline_do_zero_publicacao\\sample_data\\pipeline_do_zero_amostra\\saida_setor_cep_renda_do_zero\\setor_censitario_cep_renda_do_zero.csv",
+    "parquet": null,
+    "sqlite": "C:\\Users\\matpa\\Documents\\Base CEP_LOG_RENDA\\pipeline_do_zero_publicacao\\sample_data\\pipeline_do_zero_amostra\\saida_setor_cep_renda_do_zero\\setor_cep_renda_do_zero_work.sqlite",
+    "summary_json": "C:\\Users\\matpa\\Documents\\Base CEP_LOG_RENDA\\pipeline_do_zero_publicacao\\sample_data\\pipeline_do_zero_amostra\\saida_setor_cep_renda_do_zero\\setor_censitario_cep_renda_do_zero_resumo.json"
+  }
+}
